@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Chat Room</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+    <div class="viewpage">
+        <h1>Welcome to ChatRoom</h1>
+        <button class="button">Enter</button>
+    </div>
+    <ul class="chatroom">
+        <li class="loginbox">
+            <div class="loginform">
+                <h2 class="logintitle">Enter your chatname/username</h2>
+                <input class="login" type="text" maxlength="14" />
+            </div>
+        </li>
+        <li class="chat">
+            <div class="chatbox">
+                <ul class="messages"></ul>
+            </div>
+            <input class="entermessage" placeholder="Type your message.." />
+            <input class="enter" type="submit" value="Send">
+        </li>
+    </ul>
+    </div>
+</body>
+
+</html>

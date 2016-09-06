@@ -1,0 +1,12 @@
+{
+  "name":"MyChatRoom",
+  "version":"1.0.0",
+  "description":"A simple chat room ",
+  "main":"index.js",
+  "author":"Akshay magapu",
+  "private":true,
+  "license":"BSD",
+  "dependencies":{
+  "express":"4.13.4"
+  }
+}
